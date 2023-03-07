@@ -109,7 +109,12 @@ flex-wrap: wrap;
     cursor: pointer;
 }
 
-.carsList li strong {
+.price {
     display: block;
     margin: 16px 0;
+}
+
+.price del {
+    color:#ccc;
+    font-size: 14px;
 }
