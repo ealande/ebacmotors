@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylessheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <title>EBAC MOTORS</title>
+    </head>
+    <body>
+        <header>
+            <div class="container container-flex">
+                <h1>EBAC Motors</h1>
+                <div class="hamburguermenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Highlights</a>
+                        </li>
+                        <li>
+                            <a href="#">Sales</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+       <div id="carouselImages">
+            <img src="./images/slide1.png" alt="porsche car">
+            <img src="./images/slide2.png" alt="bmw car">
+            <img src="./images/slide3.png" alt="ford GT">
+       </div>
+
+       <section id="aboutShop">
+            <div class="container container-flex">
+                <img src="./images/loja.jpg" alt="ebac shop image">
+                <div>
+                    <h2>About EBAC Motors</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aut voluptatum dicta qui? Eum pariatur cupiditate eius. Iste libero nihil ratione perspiciatis repellendus quas odit fugiat obcaecati inventore, ab molestiae!
+                    </p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aut voluptatum dicta qui? Eum pariatur cupiditate eius. Iste libero nihil ratione perspiciatis repellendus quas odit fugiat obcaecati inventore, ab molestiae!
+                    </p>
+                </div>
+            </div>
+       </section>
+
+       <section>
+         <div class="container">
+                <h2>Highlights</h2>
+                <ul class="container-flex carsList">
+                    <li>
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+
+                    <li class="centralItems">
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+
+                    <li>
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+
+                    <li>
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+
+                    <li class="centralItems">
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+
+                    <li>
+                        <img src="./images/carro-bmw.png" alt="bmw car">
+                        <h3>BMW Car</h3>
+                        <p>
+                            Car description
+                        </p>
+                        <strong>R$30.000,00</strong>
+                        <button>I'm Interested!</button>
+                    </li>
+                </ul>
+         </div>
+       </section>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>         
+    <script>
+        $(document).ready(function() {
+            $('#carouselImages').slick({
+                autoplay:true,
+            });
+            
+            $('.hamburguermenu').click(function(){
+                $(`nav`).slideToggle();
+            })
+        })
+    </script>
+    </body>
+</html>

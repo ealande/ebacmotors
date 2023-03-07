@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html {
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+
+}
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburguermenu {
+    width: 32px;
+    cursor:pointer;
+}
+
+span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+#aboutShop img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding:48px 0
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.carsList {
+flex-wrap: wrap;
+}
+
+.carsList li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.carsList li img {
+    max-width: 100%;
+}
+.carsList h3 {
+    margin: 16px;
+}
+
+.centralItems {
+    margin: 0 5%;
+}
+
+.carsList li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.carsList li strong {
+    display: block;
+    margin: 16px 0;
+}
